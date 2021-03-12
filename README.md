@@ -5,7 +5,9 @@ Essa análise pretende analisar a correlação entre o aumento dos preços e a i
 As bases utilizadas foram:
 
 1 -Base de população estimada do IBGE extraida com o module de Python basedosdados.
+
 2 -Base de PIB do IBGE de 2018 extraida com o module de Python basedosdados.
+
 3 -Base do Auxílio Emergencial, com dados entre abril e agosto, extraida do BigQuery do Base dos Dados através do código:
 
         SELECT SUM(valor_beneficio), sigla_uf, id_municipio
